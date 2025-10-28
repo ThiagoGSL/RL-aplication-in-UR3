@@ -4,7 +4,8 @@ import os
 
 # --- Configuration ---
 # The name of the MJCF file you created
-model_filename = '../ur3_onrobot_rg2_model/ur3_onrobot_rg2.xml'
+model_filename = '../ur3_onrobot_rg2_model/custom_ur3_onrobot_rg2_cube.xml'
+#model_filename = '../ur3_onrobot_rg2_model/ur3_onrobot_rg2.xml'
 
 # --- Script ---
 # Get the full path to the model file
