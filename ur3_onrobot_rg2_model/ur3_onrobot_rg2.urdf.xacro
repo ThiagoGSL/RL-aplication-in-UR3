@@ -65,7 +65,7 @@
     <visual>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/base.stl"/>
+        <mesh filename="meshes/visual/v_base.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -74,7 +74,7 @@
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/base.stl"/>
+        <mesh filename="meshes/collision/c_base.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -97,7 +97,7 @@
     <visual>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/shoulder.stl"/>
+        <mesh filename="meshes/visual/v_shoulder.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -106,7 +106,7 @@
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/shoulder.stl"/>
+        <mesh filename="meshes/collision/c_shoulder.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -129,7 +129,7 @@
     <visual>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.1198"/>
       <geometry>
-        <mesh filename="meshes/visual/upperarm.stl"/>
+        <mesh filename="meshes/visual/v_upperarm.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -138,7 +138,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.1198"/>
       <geometry>
-        <mesh filename="meshes/collision/upperarm.stl"/>
+        <mesh filename="meshes/collision/c_upperarm.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -161,7 +161,7 @@
     <visual>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.0275"/>
       <geometry>
-        <mesh filename="meshes/visual/forearm.stl"/>
+        <mesh filename="meshes/visual/v_forearm.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -170,7 +170,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.0275"/>
       <geometry>
-        <mesh filename="meshes/collision/forearm.stl"/>
+        <mesh filename="meshes/collision/c_forearm.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -194,7 +194,7 @@
       <!-- TODO: Move this to a parameter -->
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.085"/>
       <geometry>
-        <mesh filename="meshes/visual/wrist1.stl"/>
+        <mesh filename="meshes/visual/v_wrist1.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -203,7 +203,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.085"/>
       <geometry>
-        <mesh filename="meshes/collision/wrist1.stl"/>
+        <mesh filename="meshes/collision/c_wrist1.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -226,7 +226,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 -0.083"/>
       <geometry>
-        <mesh filename="meshes/visual/wrist2.stl"/>
+        <mesh filename="meshes/visual/v_wrist2.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -235,7 +235,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.083"/>
       <geometry>
-        <mesh filename="meshes/collision/wrist2.stl"/>
+        <mesh filename="meshes/collision/c_wrist2.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -258,7 +258,7 @@
     <visual>
       <origin rpy="1.5707963267948966 0 0" xyz="0 -0.00255 -0.082"/>
       <geometry>
-        <mesh filename="meshes/visual/wrist3.stl"/>
+        <mesh filename="meshes/visual/v_wrist3.stl"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -267,7 +267,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 0" xyz="0 -0.00255 -0.082"/>
       <geometry>
-        <mesh filename="meshes/collision/wrist3.stl"/>
+        <mesh filename="meshes/collision/c_wrist3.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -330,7 +330,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/base_link.stl"/>
+        <mesh filename="meshes/visual/v_base_link.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.8 0.8 0.8 1"/>
@@ -339,7 +339,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/base_link.stl"/>
+        <mesh filename="meshes/collision/c_base_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -352,7 +352,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/outer_knuckle.stl"/>
+        <mesh filename="meshes/visual/v_outer_knuckle.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.8 0.8 0.8 1"/>
@@ -361,7 +361,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/outer_knuckle.stl"/>
+        <mesh filename="meshes/collision/c_outer_knuckle.stl"/>
       </geometry>
     </collision>
   </link>
@@ -374,7 +374,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/inner_knuckle.stl"/>
+        <mesh filename="meshes/visual/v_inner_knuckle.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.8 0.8 0.8 1"/>
@@ -383,7 +383,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/inner_knuckle.stl"/>
+        <mesh filename="meshes/collision/c_inner_knuckle.stl"/>
       </geometry>
     </collision>
   </link>
@@ -396,7 +396,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/inner_finger.stl"/>
+        <mesh filename="meshes/visual/v_inner_finger.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.1 0.1 0.1 1"/>
@@ -405,7 +405,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/inner_finger.stl"/>
+        <mesh filename="meshes/collision/c_inner_finger.stl"/>
       </geometry>
     </collision>
   </link>
@@ -418,7 +418,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/outer_knuckle.stl"/>
+        <mesh filename="meshes/visual/v_outer_knuckle.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.8 0.8 0.8 1"/>
@@ -427,7 +427,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/outer_knuckle.stl"/>
+        <mesh filename="meshes/collision/c_outer_knuckle.stl"/>
       </geometry>
     </collision>
   </link>
@@ -440,7 +440,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/inner_knuckle.stl"/>
+        <mesh filename="meshes/visual/v_inner_knuckle.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.8 0.8 0.8 1"/>
@@ -449,7 +449,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/inner_knuckle.stl"/>
+        <mesh filename="meshes/collision/c_inner_knuckle.stl"/>
       </geometry>
     </collision>
   </link>
@@ -462,7 +462,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/visual/inner_finger.stl"/>
+        <mesh filename="meshes/visual/v_inner_finger.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.1 0.1 0.1 1"/>
@@ -471,7 +471,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/collision/inner_finger.stl"/>
+        <mesh filename="meshes/collision/c_inner_finger.stl"/>
       </geometry>
     </collision>
   </link>
